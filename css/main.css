@@ -117,6 +117,11 @@ a {
   margin: 16px 0;
 }
 /* Features section styles */
+.features {
+  margin: 64px 0;
+  padding: 64px 0;
+  background-color: #f1f5f9;
+}
 .features__top {
   text-align: center;
 }
@@ -126,4 +131,36 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+}
+.features__card {
+  border: 1px solid gainsboro;
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.features__card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.features__card--circle {
+  display: inline-block;
+  background-color: #d1fae5;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features__card--title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.features__card--text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748b;
 }
