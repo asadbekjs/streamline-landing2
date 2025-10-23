@@ -15,6 +15,10 @@
 a {
   text-decoration: none;
 }
+ul,
+ol {
+  list-style-type: none;
+}
 .section__btn1 {
   background-color: #10b981;
   color: #f8fafc;
@@ -209,4 +213,69 @@ a {
   color: #64748b;
   font-size: 12px;
   line-height: 16px;
+}
+/* Pricing section styles */
+.pricing {
+  margin: 112px 0;
+  background-color: #f1f5f9;
+  padding: 64px 0;
+}
+.pricing__top {
+  text-align: center;
+}
+.pricing__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.pricing__card {
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+}
+.pricing__card:hover {
+  transform: translateY(-10px);
+}
+.pricing__card--title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.pricing__card--text {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px 0;
+}
+.pricing__card--data {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pricing__card--price {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.pricing__card--month {
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748b;
+}
+.pricing__card--list {
+  margin: 16px 0;
+}
+.pricing__card--listitem {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #020817;
+}
+.pricing__card--listitem > i {
+  color: #10b981;
+  margin-right: 6px;
+}
+.pricing__card--btn {
+  width: 100%;
 }
