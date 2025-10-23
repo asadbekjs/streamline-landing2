@@ -164,3 +164,49 @@ a {
   line-height: 20px;
   color: #64748b;
 }
+/* Testimonials section styles */
+.testimonials__top {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.testimonials__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.testimonials__card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 24px;
+  border-radius: 8px;
+}
+.testimonials__card--text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+.testimonials__card--data {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.testimonials__card--image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+.testimonials__card--image > img {
+  width: 100%;
+}
+.testimonials__card--personname {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.testimonials__card--personposition {
+  color: #64748b;
+  font-size: 12px;
+  line-height: 16px;
+}
